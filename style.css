@@ -2,6 +2,13 @@ body {
     font-family: ariel;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
 section {
     background-color: white;
 }
@@ -15,9 +22,8 @@ section {
 }
 
 .hero {
-    margin-top: 20px;
     background-color: #1c1c1c;
-    height: 30vh;
+    height: 35vh;
     color: white;
     font-size: 40px;
 }
@@ -31,7 +37,7 @@ footer {
 }
 
 nav {
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: space-between;
     background-color: purple;
@@ -41,7 +47,9 @@ nav {
 nav a {
 color:white;
 text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
 }
+
 
 nav a:hover {
     background-color:rgb(149, 0, 255);
@@ -56,6 +64,7 @@ ul {
     font-size: 30px;
     text-shadow: 1px 3px black;
     margin-right: 30px;
+    margin-top: 30px;
 }
 
 li {
@@ -162,21 +171,18 @@ text-decoration: none;
     text-decoration: none;
 }
 
-.button:active, .button2:active{
+.button:active, .button2:active {
     background-color: indigo;
     color:white;
     text-decoration: none;
     
 }
-.button a, .button2 a{
+.button a, .button2 a {
     color:white;
     text-decoration: none;
 }
 
 .socials {
-    height: 10vh;
-    margin-top: 10vh;
-    padding-bottom: 200px;
     margin-right: 30px;
 }
 
@@ -219,7 +225,7 @@ text-decoration: none;
     
 }
 
-@media only screen and (max-width: 900vw) {
+@media only screen and (max-width: 100vw) {
     .project-container {
         display:flex;
         flex-wrap: wrap;
@@ -245,7 +251,7 @@ hr {
 a img:hover {
     transform: scale(1.3);
 }
-.contact-link a{
+.contact-link a {
     color: white;
     text-decoration: none;
     text-shadow: 1px 3px rgb(149, 0, 255);
@@ -271,15 +277,12 @@ a img:hover {
         color:rgb(126, 29, 194);
         
     }
-    
-   
-
 
 .hamburger {
    display: none;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     .hamburger {
         display: block;
         border: 0;
@@ -307,6 +310,12 @@ a img:hover {
         background-color: purple;
         box-shadow: 0 10px 20px 0 rgb(149, 0, 255);
     }
-
+    .logo {
+        display: none;
+    }
   
+}
+figcaption {
+    color:black;
+    font-size: 14px;
 }
