@@ -338,28 +338,14 @@ a img:hover {
     .logo {
         display: none;
     }
-    h1 {
-       font-size: 69px;
+    .hero-text {
+        font-size: 10vw;
     }
+ }
   
 }
 
-@media only screen and (max-width: 550px) {
-    h1 {
-        font-size: 59px;
-    }
-    }
-    @media only screen and (max-width: 500px) {
-        h1 {
-            font-size: 39px;
-        }
-        }
-        @media only screen and (max-width: 380px) {
-            h1 {
-                font-size: 29px;
-            }
-    
-        }
+
 figcaption {
     color:black;
     font-size: 14px;
